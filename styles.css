@@ -104,4 +104,21 @@ body {
 /* WHAT WE DO */
 .whatWeDo {
     color: black;
+    font-size: small;
+    padding: 40px 0px;
 }
+
+.whatWeDo h2 {
+    margin-bottom: 20px;
+}
+
+.whatWeDoContentWrapper {
+    text-align: center;
+}
+
+.whatWeDoServiceIcons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* PORTFOLIO */
