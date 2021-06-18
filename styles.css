@@ -7,6 +7,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    color: white;
 }
 .landingPage {
     background-image: url("IP3-master/assets/backgrounds/h_img.jpg");
@@ -14,4 +15,27 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingContentWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingContentWrapper div {
+    margin-bottom: 20px;
+}
+
+#delani {
+    margin-bottom: 0px;
+}
+
+#logoTag {
+    margin-bottom: 0px;
+    margin-top: 10px;
 }
