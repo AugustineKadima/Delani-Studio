@@ -89,6 +89,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: small;
+    padding: 40px 80px;
 }
 
 .servicesContentWrapper h2 {
@@ -96,6 +97,7 @@ body {
 }
 
 .servicesContentWrapper p {
+    text-align: center;
     margin-bottom: 10px;
 }
 
