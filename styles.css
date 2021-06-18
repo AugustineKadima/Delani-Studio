@@ -105,7 +105,7 @@ body {
 .whatWeDo {
     color: black;
     font-size: small;
-    padding: 40px 0px;
+    padding: 40px 80px;
 }
 
 .whatWeDo h2 {
@@ -118,12 +118,38 @@ body {
 
 .whatWeDoServiceIcons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 /* PORTFOLIO */
+.portfolioContentWrapper{
+    padding: 20px 80px;
+    font-size: small;
+}
+.portfolioContentWrapper h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 .portfolioContentWrapper div {
     display: flex;
+    justify-content: space-between;
 }
 
+.portfolioRowOne div {
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.portfolioRowOne div img {
+    width: 94%;
+}
+
+.porfoloRowTwo div {
+    width: 25%;
+}
+
+.porfoloRowTwo div img {
+    width: 94%;
+}
