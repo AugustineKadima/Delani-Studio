@@ -91,3 +91,11 @@ body {
     font-size: small;
 }
 
+.servicesContentWrapper h2 {
+    margin-bottom: 10px;
+}
+
+.servicesContentWrapper p {
+    margin-bottom: 10px;
+}
+
