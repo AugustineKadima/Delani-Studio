@@ -156,7 +156,6 @@ body {
 
 /* CONTACT US */
 .contactUs {
-    color: black;
     font-size: small;
     margin-top: 80px;
     text-align: center;
@@ -165,8 +164,51 @@ body {
     background-position: center;
     background-size: cover;
     height: 50vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactUsContentWrapper {
+    width: 80%;
 }
 
 .contactUs h2 {
     margin-bottom: 20px;
+}
+
+form{
+    width: 100%;
+}
+
+form div {
+    width: 100%;
+}
+
+form div input {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px 10px;
+    width: 40%;
+}
+
+form div input[type="email"] {
+    margin-left: 20px;
+}
+
+form div input::placeholder {
+    color: white;
+}
+
+form textarea {
+    background-color: transparent;
+    border: 1px solid white;
+    margin-top: 20px;
+    padding: 5px 10px;
+    width: 80%;
+}
+
+form textarea::placeholder {
+    color: white;
 }
