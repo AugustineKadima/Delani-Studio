@@ -57,7 +57,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 40px 80px;
+    padding: 80px 80px;
     font-size: small;
 }
 
@@ -89,7 +89,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: small;
-    padding: 40px 80px;
+    padding: 80px 80px;
 }
 
 .servicesContentWrapper h2 {
@@ -105,7 +105,7 @@ body {
 .whatWeDo {
     color: black;
     font-size: small;
-    padding: 40px 80px;
+    padding: 80px 80px 60px 80px;
 }
 
 .whatWeDo h2 {
@@ -123,7 +123,7 @@ body {
 
 /* PORTFOLIO */
 .portfolioContentWrapper{
-    padding: 20px 80px;
+    padding: 0px 80px;
     font-size: small;
 }
 .portfolioContentWrapper h2 {
