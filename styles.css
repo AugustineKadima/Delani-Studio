@@ -121,6 +121,11 @@ body {
     justify-content: space-between;
 }
 
+#designText{
+    display: none;
+    font-size: small;
+}
+
 /* PORTFOLIO */
 .portfolioContentWrapper{
     padding: 0px 80px;
@@ -199,6 +204,7 @@ form div input[type="email"] {
 
 form div input::placeholder {
     color: white;
+    opacity: 0.7;
 }
 
 form textarea {
@@ -211,6 +217,7 @@ form textarea {
 
 form textarea::placeholder {
     color: white;
+    opacity: 0.7;
 }
 
 /* SOCIAL MEDIA */
