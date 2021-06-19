@@ -3,6 +3,7 @@ $(document).ready(function () {
         event.preventDefault();
         $("div#design").toggle()
         $("p#designText").toggle()
+        $("div#designLabel").show()
 
     })
 
@@ -11,6 +12,8 @@ $(document).ready(function () {
        
         $("p#designText").toggle()
         $("div#design").toggle()
+        $("div#designLabel").hide()
+
 
     })
 });
@@ -21,6 +24,7 @@ $(document).ready(function () {
 
         $("div#development").toggle()
         $("p#developmentText").toggle()
+        $("div#developmentLabel").show()
 
     })
 
@@ -29,6 +33,8 @@ $(document).ready(function () {
 
         $("div#development").toggle()
         $("p#developmentText").toggle()
+        $("div#developmentLabel").hide()
+
 
     })
 });
@@ -39,6 +45,7 @@ $(document).ready(function () {
 
         $("div#productManagement").toggle()
         $("p#productManagementText").toggle()
+        $("div#productManagementLabel").show()
         
     })
 
@@ -47,6 +54,7 @@ $(document).ready(function () {
 
         $("div#productManagement").toggle()
         $("p#productManagementText").toggle()
+        $("div#productManagementLabel").hide()
         
     })
 });
