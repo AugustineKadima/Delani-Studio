@@ -130,6 +130,9 @@ body {
     display: none;
 }
 
+#productManagementText {
+    display: none;
+}
 /* PORTFOLIO */
 .portfolioContentWrapper{
     padding: 0px 80px;

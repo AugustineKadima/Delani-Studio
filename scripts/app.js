@@ -36,6 +36,17 @@ $(document).ready(function () {
 $(document).ready(function () {
     $("div#productManagement").click(function(event) {
         event.preventDefault();
+
+        $("div#productManagement").toggle()
+        $("p#productManagementText").toggle()
+        
+    })
+
+    $("p#productManagementText").click(function(event) {
+        event.preventDefault();
+
+        $("div#productManagement").toggle()
+        $("p#productManagementText").toggle()
         
     })
 });
