@@ -121,6 +121,13 @@ body {
     justify-content: space-between;
 }
 
+.whatWeDoServiceIcons div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 #designText{
     display: none;
