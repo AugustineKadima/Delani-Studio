@@ -18,7 +18,18 @@ $(document).ready(function () {
 $(document).ready(function () {
     $("div#development").click(function(event) {
         event.preventDefault();
-        
+
+        $("div#development").toggle()
+        $("p#developmentText").toggle()
+
+    })
+
+    $("p#developmentText").click(function(event) {
+        event.preventDefault();
+
+        $("div#development").toggle()
+        $("p#developmentText").toggle()
+
     })
 });
 

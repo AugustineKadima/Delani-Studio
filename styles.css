@@ -126,6 +126,10 @@ body {
     font-size: small;
 }
 
+#developmentText {
+    display: none;
+}
+
 /* PORTFOLIO */
 .portfolioContentWrapper{
     padding: 0px 80px;
