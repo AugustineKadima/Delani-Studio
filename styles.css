@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
+   
 }
 
 body {
@@ -152,15 +153,38 @@ body {
     margin-bottom: 20px;
 }
 
-.portfolioContentWrapper div {
+
+.portfolioImages:hover{
+    opacity: 0.7;
+}
+.portfolioRowOne, .porfoloRowTwo {
     display: flex;
     justify-content: space-between;
+}
+
+
+.portfolioItem {
+    position: relative;
+}
+
+.portfolioRowOne h3, .porfoloRowTwo h3 {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 20px;
+    left: 20px;
+    text-align: left;
+    color: black;
+    
 }
 
 .portfolioRowOne div {
     width: 25%;
     margin-bottom: 20px;
+    /* position: relative; */
 }
+
 
 .portfolioRowOne div img {
     width: 94%;
